@@ -1,0 +1,18 @@
+'''
+
+? It is an error to reference a key which is not in the dictionary
+? We can use the in operator to see if a key is in the dictionary
+
+'''
+
+ccc = dict()
+
+ccc['Akhil'] = 32
+ccc['Lithin'] = 34
+
+print int('Mummy' in ccc)
+print 'Lithin' in ccc
+
+
+
+
