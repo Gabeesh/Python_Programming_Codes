@@ -1,0 +1,20 @@
+One thing to note: 
+Input:
+30 120.00
+
+Output:
+89.50
+
+In input two values are on same line and the way your code receives input is wrong, it will work only for newline input.
+So if you want to take multiple input from single line use map().
+Here is an example:
+Replace these two lines
+t=float(raw_input())
+s=float(raw_input())
+with
+
+t,s=map(float, raw_input().split())
+
+And your code will be able to receive multiple input from single line..!!
+
+:)
